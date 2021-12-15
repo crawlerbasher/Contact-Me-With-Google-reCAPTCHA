@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+.input container {
+	flex: fixed;
+    width: 100%;
+	margin-bottom: 15px;
+}
+.icon {
+	padding: 10px;
+	background: dodgerblue;
+	colour: white;
+	min-width: 50px;
+	text-align: center;
+}
+.msg-icon {
+	padding: 10px;
+	background: dodgerblue;
+	colour: white;
+	min-width: 50px;
+	text-align: center;
+	position: relative;
+	bottom:  163px;
+}
+.input-field {
+	width: 300px;
+	padding: 10px;
+	outline: none;
+	margin-bottom: 15px;
+}
+.input-field:focus {
+	border: 2px solid dodgerblue;
+}
+.btn {
+	background-color: dodgerblue;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 360px;
+	opacity: 0.9;
+}
+.btn:hover {
+	opacity: 1;
+}
+.center {
+	position: fixed;
+	left: 40%;
+}
+@media screen and (max-width: 600px) {
+	.center {
+		position: fixed;
+		left: auto;
+	}
+}
